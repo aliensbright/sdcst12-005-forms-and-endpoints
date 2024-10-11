@@ -14,22 +14,22 @@
 
 <h1>Madlibs</h1>
 
-<form action="http://127.0.0.1:3000/story.html">
+<form method="POST" action="http://127.0.0.1:3000/form.html">
     <h2>Please Input Answers to these following Questions:</h2>
 
-    <input type="text" id="pname" name="pname" placeholder="Proper Name" style="position: absolute; "><br>
+    <input type="text" id="pname" name="pname" placeholder="Proper Name" style="position: absolute; " required><br>
 
-    <input type="text" id="animal" name="animal" placeholder="Aquatic Animal"><br>
+    <input type="text" id="animal" name="animal" placeholder="Aquatic Animal" required><br>
 
-    <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+    <input type="text" id="fname" name="fname" placeholder="First Name" required><br>
 
-    <input type="text" id="adjective" name="adjective" placeholder="Last Name"><br>
+    <input type="text" id="adjective" name="adjective" placeholder="Last Name" required><br>
 
-    <input type="text" id="emotion" name="emotion" placeholder="Emotion"><br>
+    <input type="text" id="emotion" name="emotion" placeholder="Emotion" required><br>
 
-    <input type="text" id="tool" name="tool" placeholder="Gardening tool"><br>
+    <input type="text" id="tool" name="tool" placeholder="Gardening tool" required><br>
 
-    <input type="text" id="verb" name="verb" placeholder="Verb in Present"><br><br>
+    <input type="text" id="verb" name="verb" placeholder="Verb in Present" required><br><br>
     <input type="submit" value="Submit">
 
   </form>
