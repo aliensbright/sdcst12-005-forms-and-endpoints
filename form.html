@@ -8,6 +8,11 @@
         font-size: 25px;
         text-align: center;
     }
+    input {
+        border-color: black;
+        border-width: 5px;
+        margin: 2px;
+    }
 
 
 </style>
@@ -16,20 +21,24 @@
 
 <form method="POST" action="http://127.0.0.1:5000/question">
     <h2>Please Input Answers to these following Questions:</h2>
+    <table>
+    <tr>
+    <input type="text" id="pname" name="pname" placeholder="Proper Name" required>
 
-    <input type="text" id="pname" name="pname" placeholder="Proper Name" required><br>
+    <input type="text" id="animal" name="animal" placeholder="Aquatic Animal" required>
 
-    <input type="text" id="animal" name="animal" placeholder="Aquatic Animal" required><br>
+    <input type="text" id="fname" name="fname" placeholder="First Name" required>
+    </tr>
+    <tr>
+    <input type="text" id="adjective" name="adjective" placeholder="Last Name" required>
 
-    <input type="text" id="fname" name="fname" placeholder="First Name" required><br>
+    <input type="text" id="emotion" name="emotion" placeholder="Emotion" required>
 
-    <input type="text" id="adjective" name="adjective" placeholder="Last Name" required><br>
-
-    <input type="text" id="emotion" name="emotion" placeholder="Emotion" required><br>
-
-    <input type="text" id="tool" name="tool" placeholder="Gardening tool" required><br>
-
-    <input type="text" id="verb" name="verb" placeholder="Verb in Present" required><br><br>
-    <input type="submit" value="Submit">
+    <input type="text" id="tool" name="tool" placeholder="Gardening tool" required>
+    <input style="border-width:0px;width:183px;" type="text" id="verb" name="verb" >
+    <input type="text" id="verb" name="verb" placeholder="Verb in Present" required>
+    </tr>
+    </table>
+    <input type="submit">
 
   </form>
