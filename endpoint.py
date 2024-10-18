@@ -25,7 +25,7 @@ def endpoint():
         Lake, we saw a {data['animal']}. Since I am not scared of {data['animal']}s, I 
         went to pet it with my hand. The {data['animal']} was very {data['adjective']} when I 
         pet it. My friend, {data['fname']}, on the other hand, felt very {data['emotion']}
-        and poked it with their {data['tool']} weapon. The {data['animal']} ended up 
+        and poked it with their {data['tool']}. The {data['animal']} ended up 
         {data['verb']} us. The end.
         </div>
     </body>

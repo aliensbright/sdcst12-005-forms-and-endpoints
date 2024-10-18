@@ -13,32 +13,40 @@
         border-width: 5px;
         margin: 2px;
     }
+    div {
+        position:relative;
+        margin-left: 32%;
+  
+    }
 
 
 </style>
 
 <h1>Madlibs</h1>
-
+<body>
 <form method="POST" action="http://127.0.0.1:5000/question">
+
     <h2>Please Input Answers to these following Questions:</h2>
-    <table>
-    <tr>
+
+    <div>
     <input type="text" id="pname" name="pname" placeholder="Proper Name" required>
 
     <input type="text" id="animal" name="animal" placeholder="Aquatic Animal" required>
 
     <input type="text" id="fname" name="fname" placeholder="First Name" required>
-    </tr>
-    <tr>
+    </div>
+    <div>
     <input type="text" id="adjective" name="adjective" placeholder="Adjective" required>
 
     <input type="text" id="emotion" name="emotion" placeholder="Emotion" required>
 
     <input type="text" id="tool" name="tool" placeholder="Gardening tool" required>
-    <input style="border-width:0px;width:183px;" type="" id="" name="" >
+    </div>
+    <div>
+    <input style="border-width:0px;width:176px;" type="" id="" name="" >
     <input type="text" id="verb" name="verb" placeholder="Verb in Present" required>
-    </tr>
-    </table>
-    <input type="submit">
+    </div>
+    <input type="submit" style="margin-left: 48%;">
 
-  </form>
+    </form>
+</body
